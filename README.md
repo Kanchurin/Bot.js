@@ -12,7 +12,7 @@ let keywords = ["Автомобили с пробегом", "Лада Приор
 let keyword = keywords[getRandom(0, keywords.length)];
 let inputClick = document.getElementsByClassName("mini-suggest__input")[0];
 let yandexInput = document.getElementsByClassName("mini-suggest__input")[0];
-let buttonClick = document.getElementsByClassName("search2__button")[0].click();
+document.getElementsByClassName("search2__button")[0].click();
 
 let links = document.links;
 
